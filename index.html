@@ -19,9 +19,53 @@
             color: white
         }
 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid white;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: firebrick;
+            text-align: center;
+            padding: 15px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: black;
+        }
+
     </style>
 
     <body>
+
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Dice Roller">Dice Roller</a></li>
+            <li><a href="#Spells">Spells</a></li>
+            <li style="float:right"><a class="active" href="#About">About</a></li>
+        </ul>
+
+
+
+
+
         <h1>Dungeons and Dragons Dice Roller!</h1>
         <h2>A HTML playground</h2>
 
@@ -48,31 +92,6 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eWaWhclF1hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         
-
-        <li>
-            <li>apples</li>
-                <ul>
-                    <li>granny smith</li>
-                    <li>golden delicious</li>
-                </ul>
-            <li>oranges</li>
-            <li>pineapples</li>
-        </li>
-
-        <table>
-            <tr>
-                <th>Month</th>
-                <th>Rent</th>
-                <th>Groceries</th>
-                <th>EatingOut</th>
-            </tr>
-            <tr>
-                <td>August</td>
-                <td>£1500</td>
-                <td>£150</td>
-                <td>£200</td>
-            </tr>
-        </table>
 
     </body>
 
